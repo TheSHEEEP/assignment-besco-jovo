@@ -1,0 +1,16 @@
+{
+  "invocation": "my test app",
+  "version": "4.0",
+  "intents": {
+    "ChangeModeIntent": {
+      "entities": {
+        "mode": {
+          "type": "modeType"
+        }
+      },
+      "phrases": [
+        "change mode"
+      ]
+    }
+  }
+}
