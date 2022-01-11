@@ -12,5 +12,13 @@
         "change mode"
       ]
     }
+  },
+  "entityTypes": {
+    "modeType": {
+      "values": [
+        "sewing",
+        "embroidery"
+      ]
+    }
   }
 }

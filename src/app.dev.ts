@@ -15,6 +15,13 @@ app.configure({
   plugins: [
     new FileDb({
       pathToFile: '../db/db.json',
+      storedElements: {
+        user : true,
+        session : true,
+        history: true,
+        createdAt: true,
+        updatedAt: true,
+      }
     }),
     new JovoDebugger(),
   ],

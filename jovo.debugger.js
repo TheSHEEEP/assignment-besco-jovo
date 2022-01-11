@@ -6,15 +6,10 @@ const debuggerConfig = new DebuggerConfig({
     {
       label: 'Change Mode',
       input: {
-        intent: 'ChangeModeIntent',
-        entities: {
-    			mode: {
-    				value: 'bubenhofen'
-    			}
-    		}
+        intent: 'ChangeModeIntent'
       }
     }
-  ],
+  ]
 });
 
 module.exports = debuggerConfig;
